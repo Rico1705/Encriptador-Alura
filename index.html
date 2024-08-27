@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./img/logo.svg">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <title>Encriptador de Texto</title>
+</head>
+<body>
+
+    <header>
+        <a href="https://www.aluracursos.com/" rel="noopener noreferrer" target="_blank">
+            <img src="./img/logo.svg" alt="Logo Alura" class="logo">
+        </a>    
+    </header>
+
+    <main>
+        <section class="encriptador">
+            <textarea class="encriptar" placeholder="Ingrese el texto aquí"></textarea>
+            <div class="encriptador_texto">
+                <img src="./img/aviso.svg" alt="Imagen Aviso" class="img_aviso">
+                <p class="condiciones">Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="encriptador_contenedor">
+                <button type="submit" class="boton_encriptar">Encriptar!</button>
+                <button type="submit" class="boton_desencriptar">Desencriptar!</button>
+            </div>
+        </section>
+
+        <section class="resultado">
+           <div class="resultado_contenedor">
+                <img src="./img/muñeco.svg" alt="Imagen Muñeco" class="img_muñeco">
+                <p class="resultado_ningun_mensaje">Ningún mensaje fue encontrado</p>
+                <p class="resultado_ingrese_texto">Ingrese el texto que deseas encriptar o desencriptar</p>
+           </div>
+           <textarea type="mensaje" class="evaluar_resultado" readonly></textarea>
+           <button type="submit" class="boton_copiar">Copiar</button>
+         </section>  
+    </main>
+    <script src="./script.js"></script>
+    <footer>
+        <p class="autor">Desarrollado por Jorge Regalado</p>
+        <a href="https://www.linkedin.com/in/jorge-regalado-23ba9699/" rel="noopener noreferrer" target="_blank"">
+            <img src="./img/linkedin.svg" alt="Logo Linkedin" class="linked">
+        </a>
+        <a href="https://github.com/Rico1705" rel="noopener noreferrer" target="_blank"">
+            <img src="./img/github.svg" alt="Logo Github" class="git">
+        </a>
+    </footer>
+</body>
+</html>
