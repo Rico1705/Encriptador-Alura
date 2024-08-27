@@ -1,4 +1,4 @@
-Desafio Encriptador de Texto - ALURA LATAM - ORACLE ONE EDUCATION
+**Desafio Encriptador de Texto - ALURA LATAM - ORACLE ONE EDUCATION**
 
 En este primer desafio del curso se nos pidio hacer un codificador de texto usando las siguientes condiciones:
 
@@ -14,6 +14,7 @@ La pagina debe ser responsiva (opcional)
 Por ejemplo: "gato" => "gaitober" gaitober" => "gato"
 
 Tecnologias utilizadas:
+JavaScript, HTML y CSS
 
 
 
